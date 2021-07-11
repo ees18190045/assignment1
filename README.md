@@ -1,17 +1,15 @@
-# assignment1
-
 using System;
 
-namespace Test1
+namespace Test
 {
     class Program
     {
         static void Main(string[] args)
         {
-           string course;          
-          string input;
+          // string course;          
+          // string input;
 
-           while(true){
+          // while(true){
 
             Console.WriteLine("Please Enter whether you're Part-Time or Full-Time:");  
             string input = Console.ReadLine();
@@ -40,7 +38,7 @@ namespace Test1
                 }
             }
 
-           }
+          // }
         }
     }
 }
